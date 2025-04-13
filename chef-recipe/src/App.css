@@ -1,0 +1,136 @@
+body{
+  background-image: url("https://img.freepik.com/free-photo/ingredients-cabbage-carrot-pie-cabbage-carrots-eggs-flour-milk-butter-spices-white-background_127032-2819.jpg?semt=ais_hybrid&w=740");
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container{
+  margin-top: 1rem;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:0.625rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.head-image{
+  width: 40px;
+}
+
+.header h1{
+  font-weight: 540;
+}
+
+.main-ing-rec{
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: snow;
+  padding: 1.1rem;
+}
+
+.input-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.input-form input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(61, 55, 61);
+}
+
+.input-form button{
+  border-radius: 5px;
+  border: solid 2px black;
+  padding: 5px;
+  background-color: rgb(186 243 182);
+}
+
+.input-form button:hover{
+  background-color: rgb(149, 230, 144);
+}
+
+.ingredient-recipe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.ingredient-recipe h2{
+  margin-bottom: 10px;
+}
+
+.ingredient-list{
+  list-style: disc;
+  list-style-position: inside;
+  margin-bottom: 20px;
+}
+
+.get-recipe{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #eab247;
+  margin-bottom: 20px;
+  padding: 1.8rem;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.get-recipe button{
+  border-radius: 5px;
+  border:solid 2px black;
+  padding: 5px;
+  background-color: rgb(230 232 105);
+}
+
+.get-recipe  button:hover{
+  background-color: rgb(203, 205, 68);
+}
+
+.suggested-recipe-container{
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  max-width: 50rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px);
+  border-radius: 1.875rem;
+}
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+  margin-bottom: 8px;
+  list-style-position: inside;
+}
+
+.suggested-recipe-container ul,ol{
+  text-align: left;
+}
